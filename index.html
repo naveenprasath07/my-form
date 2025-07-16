@@ -1,55 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .spaced {
-            margin-right:50px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+  <style>
+    .spaced { margin-right: 50px; }
+  </style>
 </head>
 <body background="student1.jpg">
-    <font color="white">
-    <h3><font color="white"> <center>STUDENT REGISTERATION FORM </center></font></h3>
+  <font color="white">
+    <h3><center>STUDENT REGISTRATION FORM</center></h3>
     <hr size="10px" color="black">
-    
     <dl><br>
-    <dt>Name of the Student </dt>
-    <dd><br><span class="spaced">
-    <input type="name" placeholder="Name"></span>
-    <input typr="name" placeholder="LastName"></dd>
-    <dt><br>
-        Roll No
-    </dt><br>
-    <dd><input type="name" placeholder="roll no"></dd>
-    <br><dt>Name of the Department </dt><br>
-    <dd><label><input type="radio" >B.E</label> <label><input type="radio" >B.Tech</label></dd>
-    <dd><input type="name" placeholder="name of the department" ></dd>
-    
-    <br><dt>Date of Birth</dt> <a class="spaced">
-    <dd><input type="number" placeholder="date"></a><a class="spaced">
-        <input type="number" placeholder="month"></a>
-        <input type="number" placeholder="year"><br>
-    </dd>  <br>
-    <dt>Gender</dt><br>
-    <dd><select type="name" id="Gender">
-        <option>select</option>
-        <option>Male</option>
-        <option>Female</option>
-        <option>Transgender</option>
-    </select> </dd><br>
-    <dt>Address</dt>
-    <dd><input type="name" size="20" placeholder="flat No "></dd>
-    <dd><input type="name" size="50" placeholder="Street Name"></dd>
-    <dd><input type="name" size="50" placeholder="City"></dd>
-    <br><dt>Email ID</dt><br>
-    <dd><input type="name" size="50" placeholder="Email id"></dd>
-    <br><dt>Moblie No</dt><br>
-    <dd><input type="number" size="30" placeholder="moblie no"></dd>
-    <br><dt></dt>
-    <center><button><a href="thank.jpeg" width="1000px" height="800px">Submit</a></button></center>
-</dl></font>
+      <dt>Name of the Student</dt>
+      <dd>
+        <span class="spaced">
+          <input type="text" placeholder="First Name">
+        </span>
+        <input type="text" placeholder="Last Name">
+      </dd>
+
+      <br><dt>Roll No</dt>
+      <dd><input type="text" placeholder="Roll No"></dd>
+
+      <br><dt>Name of the Department</dt>
+      <dd>
+        <label><input type="radio" name="course"> B.E</label>
+        <label><input type="radio" name="course"> B.Tech</label>
+      </dd>
+      <dd><input type="text" placeholder="Department Name"></dd>
+
+      <br><dt>Date of Birth</dt>
+      <dd>
+        <input type="number" placeholder="Date" class="spaced">
+        <input type="number" placeholder="Month" class="spaced">
+        <input type="number" placeholder="Year">
+      </dd>
+
+      <br><dt>Gender</dt>
+      <dd>
+        <select id="Gender">
+          <option>select</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Transgender</option>
+        </select>
+      </dd>
+
+      <br><dt>Address</dt>
+      <dd><input type="text" size="20" placeholder="Flat No"></dd>
+      <dd><input type="text" size="50" placeholder="Street Name"></dd>
+      <dd><input type="text" size="50" placeholder="City"></dd>
+
+      <br><dt>Email ID</dt>
+      <dd><input type="email" size="50" placeholder="Email ID"></dd>
+
+      <br><dt>Mobile No</dt>
+      <dd><input type="number" size="30" placeholder="Mobile No"></dd>
+
+      <br><dt></dt>
+      <center>
+        <a href="thank.jpeg" target="_blank">
+          <button>Submit</button>
+        </a>
+      </center>
+    </dl>
+  </font>
 </body>
 </html>
